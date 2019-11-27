@@ -66,11 +66,11 @@
 }
 
 #content{
-  width: 70%;
+  width: 69%;
   overflow: hidden;
   margin-left: 10px;
   /* margin-right: 100px; */
-  /* float: left; */
+  float: left;
 }
 
 #content .berita .gambar{
@@ -118,4 +118,87 @@
 
 #content .berita .readmore a{
   text-decoration: none;
+}
+#sidebar {
+  /* margin: 30%; */
+  border: 2px solid red;
+  text-align: center;
+  border-radius: 20px;
+  background-color: whitesmoke;
+  float: right;
+  width: 28%;
+}
+
+.sidebar-head h1{
+  background-color: black;
+  border-radius: 50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.sidebar-head h1:hover{
+  color: red;
+}
+
+.sidebar-partner h1{
+  color: white;
+  background: black;
+  border-radius: 50px;
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.sidebar-bar h1:hover{
+  color: red;
+}
+
+.sidebar-partner h1:hover{
+  color: red;
+}
+
+#sidebar .sidebar-video{
+  border-radius: 30px;
+  opacity: .7px;
+}
+
+#sidebar .sidebar-video iframe{
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.sidebar-photo img:active{
+  height: 200%;
+  width: 200%;
+}
+
+.sidebar-photo img{
+border-radius: 10px;
+}
+
+.platinum p{
+  background-color: lightgrey;
+}
+
+.gold p{
+  background-color: Gold;
+}
+
+.Preferred p{
+  background-color: silver;
+}
+
+.Official p{
+  background-color: grey;
+}
+
+.sidebar-partner img:hover{
+  height: 30%;
+  width: 30%;
 }
