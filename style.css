@@ -3,3 +3,22 @@
     padding: 0px;
     font-family: sans-serif;
 }
+
+#sidebar {
+  margin: 30%;
+  border: 2px solid red;
+  text-align: center;
+}
+
+#sidebar .sidebar-video{
+  border-radius: 30px;
+  opacity: .7px;
+}
+
+#sidebar .sidebar-video iframe{
+  margin-bottom: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
