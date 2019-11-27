@@ -3,3 +3,57 @@
     padding: 0px;
     font-family: sans-serif;
 }
+
+#header{
+  border-color: white;
+  height: 190px;
+  overflow: hidden;
+}
+
+#header img{
+  width: 195px;
+  height: 90px;
+  padding-left: 30px;
+  padding-top: 25px;
+  float: left;
+}
+
+.menu{
+  margin-top: 65px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.menu li{
+  margin-left: 5px;
+  padding-left: 20px;
+  float: left;
+  list-style: none;
+}
+
+.menu a{
+  text-decoration: none;
+  color: grey;
+}
+
+#headline{
+  background-color: tan;
+  margin-top: -50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+}
+
+#headline h1{
+  text-align: center;
+}
+
+.beritautama{
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 500px;
+}
+.beritautama img{
+  margin-right: 40px;
+  float: left;
+}
