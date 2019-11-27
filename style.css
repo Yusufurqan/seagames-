@@ -57,3 +57,65 @@
   margin-right: 40px;
   float: left;
 }
+
+#content .berita{
+    width: 285px;
+    height: 450px;
+    float: left;
+    margin-right: 10px;
+}
+
+#content{
+  width: 70%;
+  overflow: hidden;
+  margin-left: 10px;
+  /* margin-right: 100px; */
+  /* float: left; */
+}
+
+#content .berita .gambar{
+  /* width: 20%; */
+  margin-bottom: 10px;
+  margin-left: 10px;
+
+}
+
+#content  .berita .gambar img {
+  height: 170px;
+  width: 255px;
+}
+
+#content .berita .judul{
+  /* width: 20%; */
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#content .berita .judul a{
+  text-decoration: none;
+}
+
+#content .berita .judul a:hover{
+  text-decoration:underline;
+}
+
+#content .berita .tanggal{
+  /* width: 20%; */
+  margin-bottom: 10px;
+}
+
+#content .berita .news{
+  width: auto;
+  margin-bottom: 10px;
+}
+
+#content .berita .readmore{
+  /* width: 20%; */
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+#content .berita .readmore a{
+  text-decoration: none;
+}
