@@ -22,3 +22,19 @@
   margin-top: 10px;
   border-radius: 30px;
 }
+
+.platinum p{
+  background-color: lightgrey;
+}
+
+.gold p{
+  background-color: Gold;
+}
+
+.Preferred p{
+  background-color: silver;
+}
+
+.Official p{
+  background-color: grey;
+}
