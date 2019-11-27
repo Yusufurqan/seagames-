@@ -80,3 +80,8 @@ border-radius: 10px;
 .Official p{
   background-color: grey;
 }
+
+.sidebar-partner img:hover{
+  height: 30%;
+  width: 30%;
+}
